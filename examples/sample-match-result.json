@@ -1,0 +1,65 @@
+{
+  "poNumber": "PO-1001",
+  "status": "matched",
+  "mismatchReasons": [],
+  "po": {
+    "poNumber": "PO-1001",
+    "poDate": "2026-06-01T00:00:00.000Z",
+    "vendorName": "ABC Supplies",
+    "items": [
+      {
+        "sku": "ITEM-001",
+        "description": "Laptop",
+        "quantity": 10
+      },
+      {
+        "sku": "ITEM-002",
+        "description": "Mouse",
+        "quantity": 20
+      }
+    ]
+  },
+  "grns": [
+    {
+      "grnNumber": "GRN-5001",
+      "poNumber": "PO-1001",
+      "grnDate": "2026-06-02T00:00:00.000Z",
+      "items": [
+        {
+          "sku": "ITEM-001",
+          "description": "Laptop",
+          "receivedQuantity": 10
+        },
+        {
+          "sku": "ITEM-002",
+          "description": "Mouse",
+          "receivedQuantity": 20
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "invoiceNumber": "INV-9001",
+      "poNumber": "PO-1001",
+      "invoiceDate": "2026-06-01T00:00:00.000Z",
+      "items": [
+        {
+          "sku": "ITEM-001",
+          "description": "Laptop",
+          "quantity": 10
+        },
+        {
+          "sku": "ITEM-002",
+          "description": "Mouse",
+          "quantity": 20
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "po": 1,
+    "grn": 1,
+    "invoice": 1
+  }
+}

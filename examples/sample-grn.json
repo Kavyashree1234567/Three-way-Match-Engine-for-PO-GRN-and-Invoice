@@ -1,0 +1,17 @@
+{
+  "grnNumber": "GRN-5001",
+  "poNumber": "PO-1001",
+  "grnDate": "2026-06-02",
+  "items": [
+    {
+      "sku": "ITEM-001",
+      "description": "Laptop",
+      "receivedQuantity": 10
+    },
+    {
+      "sku": "ITEM-002",
+      "description": "Mouse",
+      "receivedQuantity": 20
+    }
+  ]
+}

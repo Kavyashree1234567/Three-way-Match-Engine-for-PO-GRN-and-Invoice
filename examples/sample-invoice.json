@@ -1,0 +1,17 @@
+{
+  "invoiceNumber": "INV-9001",
+  "poNumber": "PO-1001",
+  "invoiceDate": "2026-06-01",
+  "items": [
+    {
+      "sku": "ITEM-001",
+      "description": "Laptop",
+      "quantity": 10
+    },
+    {
+      "sku": "ITEM-002",
+      "description": "Mouse",
+      "quantity": 20
+    }
+  ]
+}

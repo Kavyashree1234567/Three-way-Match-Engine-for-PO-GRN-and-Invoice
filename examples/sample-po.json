@@ -1,0 +1,17 @@
+{
+  "poNumber": "PO-1001",
+  "poDate": "2026-06-01",
+  "vendorName": "ABC Supplies",
+  "items": [
+    {
+      "sku": "ITEM-001",
+      "description": "Laptop",
+      "quantity": 10
+    },
+    {
+      "sku": "ITEM-002",
+      "description": "Mouse",
+      "quantity": 20
+    }
+  ]
+}
