@@ -2,6 +2,11 @@ import mongoose from 'mongoose';
 
 const invoiceItemSchema = new mongoose.Schema(
   {
+    itemCode: {
+      type: String,
+      trim: true,
+      default: ''
+    },
     sku: {
       type: String,
       required: true,
